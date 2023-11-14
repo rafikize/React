@@ -38,5 +38,37 @@ body{
 .compteur p.erreur {
   color: rgb(201, 54, 54);
 }
-
+.entete{
+  margin: 10px;
+}
+.post{
+  padding: 10px;
+  background-color: rgb(36, 72, 116);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.post.active {
+  background-color: rgb(178, 137, 98);
+}
+.post .text {
+  padding: 10px;
+}
+.post button{
+  padding: 8px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+.btn {
+  gap: 10px;
+  display: flex;
+}
+.btn .delete{
+  background-color: rgb(201, 54, 54);
+  color: #fff;
+}
 
